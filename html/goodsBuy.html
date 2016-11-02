@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/pattern3.css"/>
+		<link rel="stylesheet" type="text/css" href="css/conten_right.css"/>
+		<!--<link rel="stylesheet" type="text/css" href="css/1001.css"/>-->
+		<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			text-decoration: none;
+		}
+			#down{
+				width: 1240px;
+				margin: 0 auto;
+			}
+			#detail{
+				display: inline-block;
+				width: 980px;
+				/*margin: 5px auto;*/
+				background: pink;
+				padding: 0 4px 0 4px;
+				
+			}
+			#detail .detail_side{background: url(img/side2.jpg) repeat-x; height: 40px;width:960px;
+				margin-bottom: 20px;line-height: 40px;
+				color: #fff;font-size: 20px;
+				padding-left: 20px;
+			}
+			#detail .detail_side img{
+				display: inline-block;
+				vertical-align: middle;
+			}
+			.detail_title>img{
+				width: 350px;
+				height: 230px;
+				vertical-align: top;
+			}
+			.detail_title_right{
+				margin-left: 20px;
+				width: 570px;
+				height: 230px;
+				display: inline-block;
+				vertical-align: top;
+				
+			}
+			.detail_title_right h3{    display: block;
+    				font-size: 20px;
+   				margin: 0;
+    				font-weight: bold;
+    				border-bottom: 1px solid #ccc;	
+    				padding-bottom: 15px;
+    			}
+			.detail_title_right .detail_title_right_p1 strong{
+				font-size: 30px;
+				color: orange;
+			}
+			.detail_title_right p{margin-top: 5px;}
+			.detail_title_right img{vertical-align: middle;}
+			.detail_title_right .detail_title_right_p1 span{color: orange;}
+			.detail_title_right .detail_title_right_p4 input{width: 50px;outline: none;}
+			.detail_title_right .detail_title_right_p5 a{width:140px ;height: 40px;display: inline-block;text-align: center;line-height: 40px; font-size: 16px;}
+			.detail_title_right .detail_title_right_p5 a:nth-child(1){background: #feede8;color:#de4d20 ;border: 1px solid #de4d20;}
+			.detail_title_right .detail_title_right_p5 a:nth-child(2){background: #de4d20;color: #fff;}
+			
+			/*.detail_content .detail_content_header{border-bottom: 1px solid red;border-spacing:0;}*/
+			.detail_content .detail_content_header a{width: 116px;height: 40px;border: 1px solid #ccc;display: inline-block;text-align: center;line-height: 40px;color: #000;
+			margin-top: 30px;border-bottom: none;font-size: 16px;
+			}
+			.detail_content .detail_content_header span{border-bottom: 1px solid #de4d20;width: 860px;display: inline-block;vertical-align: bottom;}
+			.detail_foot	 a{color: #000;text-decoration: underline;width: 925px;float: right;}
+		</style>
+	</head>
+	<body style="background: lightgoldenrodyellow;">
+		<div id="down">
+			<div id="detail">
+				<div class="detail_side">
+					<img src="img/side1.gif"/>
+					线路详情
+				</div>
+				<div class="detail_title">
+					<img class="detail_title_img" src="../php/img/jpn16.jpg"/>
+					<div class="detail_title_right">
+						<h3 class="skip"></h3>
+						<p class="detail_title_right_p1">中旅价格<span></span><strong>1999.00</strong></p>
+	
+						<p class="detail_title_right_p2">发团日期:<span>10月24日</span></p>
+						<p class="detail_title_right_p3">已售出：<span></span></p>
+						<p class="detail_title_right_p4">购买数量：<img src="img/jian.jpg" alt="" /><input type="text" name="" id="" value="" /><img src="img/jia.jpg"/></p>
+						<p class="detail_title_right_p5">
+							<a href="#">加入购物车</a>
+							<a href="#"><img src="img/cart.png"/>立即预定</a>
+						</p>
+					</div>
+				</div>
+				<div class="detail_content">
+					<div class="detail_content_header">
+						<a href="#">产品详情</a><span class=""></span>
+						
+					</div>
+					<div id="detail_inner" style="width: 980px;">
+					</div>
+				</div>
+			
+				<div class="detail_foot">
+					<span class="detail_foot1" style="display: block;overflow: hidden;">上一个：<a class="prev" href="#"></a></span>
+					<span class="detail_foot2" style="display: block;overflow: hidden;">下一个：<a class="next" href="#"></a></span>
+				</div>
+				
+			</div>
+			<!--右侧边栏-->
+			<div id="content_right">
+				<div class="content_right_hot">
+					<p>为您推荐<a href="http://127.0.0.1/project/html/goods.html">更多>></a></p>
+					<a class="passto" target="_blank" href="#">韩国【首尔济州5+1日跟团】CZ全程四花酒店住宿 一整天自由活动-乐天世界游乐场-汗蒸沐-紫菜及韩服体验-涂鸦秀-HERO或者乱打秀-潮安泰迪熊博物馆</a>
+					<span>￥6999.00</span>
+				</div>
+				<div class="content_right_list">
+					<div class="content_right_list_header"><p>名称</p><span>中旅价格</span></div>
+					<ul>
+						<li>
+							<a class="passto" href="#">西安一日游</a>	
+							<span class="content_right_list_right">￥1000.00</span>
+						</li>
+						<li>
+							<a class="passto" href="#">西安一日游</a>	
+							<span class="content_right_list_right">￥1000.00</span>
+						</li>
+						<li>
+							<a class="passto" href="#">西安一日游</a>	
+							<span class="content_right_list_right">￥1000.00</span>
+						</li>
+						<li>
+							<a class="passto" href="#">西安一日游</a>	
+							<span class="content_right_list_right">￥1000.00</span>
+						</li>
+						<li>
+							<a class="passto" href="#">西安一日游</a>	
+							<span class="content_right_list_right">￥1000.00</span>
+						</li>
+						<li>
+							<a class="passto" href="#">西安一日游</a>	
+							<span class="content_right_list_right">￥1000.00</span>
+						</li>
+						<li>
+							<a class="passto" href="#">西安一日游</a>	
+							<span class="content_right_list_right">￥1000.00</span>
+						</li>
+						<li>
+							<a class="passto" href="#">西安一日游</a>	
+							<span class="content_right_list_right">￥1000.00</span>
+						</li>
+						<li>
+							<a class="passto" href="#">西安一日游</a>	
+							<span class="content_right_list_right">￥1000.00</span>
+						</li>
+						<li>
+							<a class="passto" href="#">西安一日游</a>	
+							<span class="content_right_list_right">￥1000.00</span>
+						</li>
+						<li>
+							<a class="passto" href="#">西安一日游</a>	
+							<span class="content_right_list_right">￥1000.00</span>
+						</li>
+						<li>
+							<a class="passto" href="#">西安一日游</a>	
+							<span class="content_right_list_right">￥1000.00</span>
+						</li>
+						<li>
+							<a class="passto" href="#">西安一日游</a>	
+							<span class="content_right_list_right">￥1000.00</span>
+						</li>
+						<li>
+							<a class="passto" href="#">西安一日游</a>	
+							<span class="content_right_list_right">￥1000.00</span>
+						</li>
+						<li>
+							<a class="passto" href="#">西安一日游</a>	
+							<span class="content_right_list_right">￥1000.00</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		
+			
+	</body>
+	<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+	<script src="js/rightSide.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		 // 截取键值函数；
+    		function getvl(name) {
+      		var reg = new RegExp("(^|\\?|&)" + name + "=([^&]*)(\\s|&|$)", "i");
+      		if (reg.test(location.href)) return unescape(RegExp.$2.replace(/\+/g, " "));
+      		return "";
+    		};
+		var valueId=getvl("prjId");
+		var valueFrom=getvl("prjFrom");
+		console.log(valueId);
+		console.log(valueFrom);
+/*	
+		var value = document.cookie;
+		console.log(value);
+		var arr = value.split(';');
+		for (var i = 0; i < arr.length; i++) {
+			var littleArr = arr[i].split('=');
+			var arrKey = littleArr[0].replace(' ','')
+			if (arrKey=='prjId') {
+				var valueId = littleArr[1];
+			}else if (arrKey=='prjFrom') {
+				var valueFrom = littleArr[1];
+			}
+			
+//			else if (arrKey=='prev') {
+//				var prev = littleArr[1];
+//			}else if (arrKey=='next') {
+//				var next = littleArr[1];
+//			}else if (arrKey =='prevId') {
+//				var prevId= littleArr[1];
+//			}else if (arrKey=='prevFrom'){
+//				var prevFrom = littleArr[1];
+//			}
+		}
+*/			
+		console.log(valueId);
+		console.log(valueFrom);
+//		console.log(prev);
+//		console.log(next);
+//		console.log(prevId);
+//		console.log(prevFrom);
+		//对页脚的上一个内容和下一个内容进行布局
+//		if (prev !='') {
+//			$('.detail_foot').children('.prev').text('上一个：'+prev);
+//			
+//			
+//		}
+//		if(next!=''){
+//			$('.detail_foot').children('.next').text('下一个：'+next);
+//			
+//		}
+		
+		//点击页脚上一个和下一个进入相应页面
+		$('.detail_foot').children('span').children().on('click',function  () {
+			console.log(this);
+			var btn =this;
+			console.log($(btn));
+//			valueId =$(btn).attr('prjId');
+//			valueFrom=$(btn).attr('prjFrom');
+			 valueId=getvl("prjId");
+			 valueFrom=getvl("prjFrom");
+			console.log(valueId);
+			console.log(valueFrom);
+			
+			$.ajax({
+			type:"GET",
+			url:'../php/code/buyDEMO.php?valueId='+valueId+'&valueFrom='+valueFrom,
+			success:function  (str) {
+				var obj = JSON.parse(str);
+				console.log(obj);
+				changeDetail (obj[0]);
+				changeFoot (obj[1],valueId,valueFrom);
+			}
+		})
+		})
+
+		
+		//初进入界面时候获取cookie中prj_id和prj_from进行网络请求，获取数据进行布局
+		$.ajax({
+			type:"GET",
+			url:'../php/code/buyDEMO.php?valueId='+valueId+'&valueFrom='+valueFrom,
+			success:function  (str) {
+				var obj = JSON.parse(str);
+				console.log(obj);
+				changeDetail (obj[0]);
+				changeFoot (obj[1],valueId,valueFrom);
+			}
+		})
+		
+//		$('.detail_title').children('img').attr('src','../php/img/kor03.jpg');
+//		$('.detail_title_img').attr('src','../php/img/kor02.jpg');
+		//通过AJAX获取数据，通过JS对布局进行更改
+		function changeDetail (obj) {
+			console.log(obj[0]);
+			$('.detail_title').children('img').attr('src','../php/img/'+obj[0].prj_img);
+			$('.detail_title_right').children('h3').text(obj[0].prj_title);
+			$('.detail_title_right').children('.detail_title_right_p1').children('strong').text(obj[0].prj_price);
+			$('.detail_title_right').children('.detail_title_right_p2').children('span').text(obj[0].prj_date);
+			$('.detail_title_right').children('.detail_title_right_p3').children('span').text(obj[0].prj_sold);
+			
+			console.log($('#detail_inner')[0]);
+			$('#detail_inner').html(obj[0].prj_detail);
+			
+//			$('#detail_inner')[0].innerHTML = obj[0].prj_detail;
+		}
+		
+		//修改底部上一个下一个信息
+		function changeFoot (obj,valueId,valueFrom) {
+			var num=valueId.replace(valueFrom,'');
+			var nextID = Number(num);
+			console.log(obj.length)
+			console.log(nextID);
+			//根据当前布局的项目所在的数据库的位置，找寻上一个和下一个，写底部信息，添加id和from属性，用于下次点击跳转
+			if (nextID < obj.length) {
+				console.log(111);
+				console.log(obj[nextID].prj_title)
+				$('.detail_foot2').attr('style','display:block;overflow:hidden');
+				$('.detail_foot2').children('.next').text(obj[nextID].prj_title);
+//				$('.detail_foot2').children('.next').attr('prjId',obj[nextID].prj_id);
+//				$('.detail_foot2').children('.next').attr('prjFrom',obj[nextID].prj_from);
+				$('.detail_foot2').children('.next').attr('href',"http://127.0.0.1/project/html/goodsBuy.html?prjId="+obj[nextID].prj_id+"&prjFrom="+obj[nextID].prj_from);
+				
+			}
+			else{
+				$('.detail_foot2').attr('style','display:none');
+			}
+			if (nextID-2 >=0) {
+				$('.detail_foot1').attr('style','display:block;overflow:hidden');
+				$('.detail_foot1').children('.prev').text(obj[nextID-2].prj_title);
+//				$('.detail_foot1').children('.prev').attr('prjId',obj[nextID-2].prj_id);
+//				$('.detail_foot1').children('.prev').attr('prjFrom',obj[nextID-2].prj_from);
+				$('.detail_foot1').children('.prev').attr('href',"http://127.0.0.1/project/html/goodsBuy.html?prjId="+obj[nextID-2].prj_id+"&prjFrom="+obj[nextID-2].prj_from);
+				
+			}
+			else{
+				$('.detail_foot1').attr('style','display:none');
+			}
+			
+
+		}
+	</script>
+</html>

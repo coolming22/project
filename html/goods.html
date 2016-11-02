@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/conten_right.css"/>
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+				list-style: none;
+			}
+			
+			#goods_nav {
+				width: 930px;
+				border: 1px solid red;
+			}
+			
+			#goods_nav_ul {
+				overflow: hidden;
+			}
+			
+			#goods_nav_ul li {
+				float: left;
+				margin: 10px;
+			}
+			
+			#goods_content {
+				width: 920px;
+				margin: 10px;
+				padding: 20px 0 15px 5px;
+				background: pink;
+				overflow: hidden;
+			}
+			
+			#goods_content li {
+				margin-bottom: 20px;
+			}
+			
+			#goods_content img {
+				width: 300px;
+				height: 200px;
+				/*float: left;*/
+				display: inline-block;
+				vertical-align: top;
+			}
+			
+			#goods_content a {
+				width: 70px;
+				height: 30px;
+				display: inline-block;
+				color: #fff;
+				background: #b30000 url(img/cart.png) 8px center no-repeat;
+				text-align: right;
+				line-height: 30px;
+				text-decoration: none;
+				font-size: 20px;
+				padding-right: 10px;
+			}
+			
+			#goods_content .goods_content_right_p1 span {
+				color: red;
+			}
+			
+			#goods_content .goods_content_right {
+				display: inline-block;
+				margin-left: 15px;
+				vertical-align: top;
+				width: 570px;
+			}
+			
+			#content {
+				margin: 100px auto;
+				overflow: hidden;
+				width: 1200px;
+			}
+			
+			#content_left {
+				display: inline-block;
+			}
+			
+			#content_right {
+				width: 246px;
+				height: 670px;
+				background: lavender;
+				float: right;
+				border: 1px solid red;
+			}
+			#goods_content .pageFoot{
+				text-align: center;
+			}
+			#goods_content .pageFoot ul,li{
+				display: inline-block;
+			}
+			#goods_content .pageFoot ul li{
+				margin: 0;
+				width: 20px;
+				border: 1px solid #ccc;
+				margin: 0 9px 0 9px;
+			}
+			#goods_content .pageFoot{
+				height: 26px;
+				line-height: 26px;
+				font-family: arial;
+				font-weight: 900;
+				color: #c00000;
+				font-size: 20px;
+				
+			}
+			#goods_content .pageFoot span{
+				display: inline-block;
+				border: 1px solid #ccc;
+				width: 72px;
+				cursor: pointer;
+			}
+			
+			#goods_content .pageFoot .pageFoot_li:nth-of-type(1){
+				cursor:auto;
+				border: none;
+				color: #000;
+			}
+			#goods_content .pageFoot .pageFoot_prev{
+				color: #000;
+				border: none;
+			}
+			
+			
+			#goods_content .pageFoot .pageFoot_next{
+				margin-left: 6px;
+				/*border: none;*/
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<div id="content">
+			<div id="content_left">
+				<div id="goods_nav">
+					<div id="out">
+						<ul id="goods_nav_ul">
+							<li>
+								<a indexValue='prj_land="out"' href="###">出境旅游</a>
+							</li>
+							<li>
+								<a indexValue='prj_from="kor"' href="###">韩国</a>
+							</li>
+							<li>
+								<a indexValue='prj_from="jpn"' href="###">日本</a>
+							</li>
+							<li>
+								<a indexValue='prj_from="sea"' href="###">东南亚</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div id="goods_content">
+					<ul>
+						<li>
+							<img class="skip" src="../php/img/jpn11.jpg" />
+							<div class="goods_content_right">
+								<h3 class="skip">韩国【首尔一地5日自助游】纯玩不进购物店</h3>
+								<p class="goods_content_right_p1">中旅价格<span>￥1999.00</span></p>
+								<p class="goods_content_right_p2">发团日期:<span>10月24日</span></p>
+								<a class="skip" href="#">预定</a>
+							</div>
+						</li>
+						<li>
+							<img class="skip" src="../php/img/jpn11.jpg" />
+							<div class="goods_content_right">
+								<h3 class="skip">韩国【首尔一地5日自助游】纯玩不进购物店</h3>
+								<p class="goods_content_right_p1">中旅价格<span>￥1999.00</span></p>
+								<p class="goods_content_right_p2">发团日期:<span>10月24日</span></p>
+								<a class="skip" href="#">预定</a>
+							</div>
+						</li>
+						<li>
+							<img class="skip" src="../php/img/jpn11.jpg" />
+							<div class="goods_content_right">
+								<h3 class="skip">韩国【首尔一地5日自助游】纯玩不进购物店</h3>
+								<p class="goods_content_right_p1">中旅价格<span>￥1999.00</span></p>
+								<p class="goods_content_right_p2">发团日期:<span>10月24日</span></p>
+								<a class="skip" href="#">预定</a>
+							</div>
+						</li>
+						<li>
+							<img class="skip" src="" />
+							<div class="goods_content_right">
+								<h3 class="skip"></h3>
+								<p class="goods_content_right_p1">中旅价格<span></span></p>
+								<p class="goods_content_right_p2">发团日期:<span></span></p>
+								<a class="skip" href="#">预定</a>
+							</div>
+						</li>
+						<li>
+							<img class="skip" src="" />
+							<div class="goods_content_right">
+								<h3 class="skip"></h3>
+								<p class="goods_content_right_p1">中旅价格<span></span></p>
+								<p class="goods_content_right_p2">发团日期:<span></span></p>
+								<a class="skip" href="#">预定</a>
+							</div>
+						</li>
+						<li>
+							<img class="skip" src="" />
+							<div class="goods_content_right">
+								<h3 class="skip"></h3>
+								<p class="goods_content_right_p1">中旅价格<span></span></p>
+								<p class="goods_content_right_p2">发团日期:<span></span></p>
+								<a class="skip" href="#">预定</a>
+							</div>
+						</li>
+						<li>
+							<img class="skip" src="" />
+							<div class="goods_content_right">
+								<h3 class="skip"></h3>
+								<p class="goods_content_right_p1">中旅价格<span></span></p>
+								<p class="goods_content_right_p2">发团日期:<span></span></p>
+								<a class="skip" href="#">预定</a>
+							</div>
+						</li>
+						<li>
+							<img class="skip" src="" />
+							<div class="goods_content_right">
+								<h3 class="skip"></h3>
+								<p class="goods_content_right_p1">中旅价格<span></span></p>
+								<p class="goods_content_right_p2">发团日期:<span></span></p>
+								<a class="skip" href="#">预定</a>
+							</div>
+						</li>
+						<li>
+							<img class="skip" src="" />
+							<div class="goods_content_right">
+								<h3 class="skip"></h3>
+								<p class="goods_content_right_p1">中旅价格<span></span></p>
+								<p class="goods_content_right_p2">发团日期:<span></span></p>
+								<a class="skip" href="#">预定</a>
+							</div>
+						</li>
+						<li>
+							<img class="skip" src="" />
+							<div class="goods_content_right">
+								<h3 class="skip"></h3>
+								<p class="goods_content_right_p1">中旅价格<span></span></p>
+								<p class="goods_content_right_p2">发团日期:<span></span></p>
+								<a class="skip" href="#">预定</a>
+							</div>
+						</li>
+						<li>
+							<img class="skip" src="" />
+							<div class="goods_content_right">
+								<h3 class="skip"></h3>
+								<p class="goods_content_right_p1">中旅价格<span></span></p>
+								<p class="goods_content_right_p2">发团日期:<span></span></p>
+								<a class="skip" href="#">预定</a>
+							</div>
+						</li>
+						<li>
+							<img class="skip" src="" />
+							<div class="goods_content_right">
+								<h3 class="skip"></h3>
+								<p class="goods_content_right_p1">中旅价格<span></span></p>
+								<p class="goods_content_right_p2">发团日期:<span></span></p>
+								<a class="skip" href="#">预定</a>
+							</div>
+						</li>
+					</ul>
+					<div class="pageFoot">
+						<span class="pageFoot_prev">上一页</span>
+						<!--<ul>
+							<li>1</li>
+							<li>2</li>
+							<li>3</li>
+						</ul>-->
+						<span class="pageFoot_next">下一页</span>
+					</div>
+				</div>
+			</div>
+			<div id="content_right">
+				<div class="content_right_hot">
+					<p>一周热卖</p>
+					<a class="passto" target="_blank" href="#">韩国【首尔济州5+1日跟团】CZ全程四花酒店住宿 一整天自由活动-乐天世界游乐场-汗蒸沐-紫菜及韩服体验-涂鸦秀-HERO或者乱打秀-潮安泰迪熊博物馆</a>
+					<span>￥6999.00</span>
+				</div>
+				<div class="content_right_list">
+					<div class="content_right_list_header"><p>名称</p><span>中旅价格</span></div>
+					<ul>
+						<li>
+							<a class="passto" href="#">西安一日游</a>	
+							<span class="content_right_list_right">￥1000.00</span>
+						</li>
+						<li>
+							<a class="passto" href="#">西安一日游</a>	
+							<span class="content_right_list_right">￥1000.00</span>
+						</li>
+						<li>
+							<a class="passto" href="#">西安一日游</a>	
+							<span class="content_right_list_right">￥1000.00</span>
+						</li>
+						<li>
+							<a class="passto" href="#">西安一日游</a>	
+							<span class="content_right_list_right">￥1000.00</span>
+						</li>
+						<li>
+							<a class="passto" href="#">西安一日游</a>	
+							<span class="content_right_list_right">￥1000.00</span>
+						</li>
+						<li>
+							<a class="passto" href="#">西安一日游</a>	
+							<span class="content_right_list_right">￥1000.00</span>
+						</li>
+						<li>
+							<a class="passto" href="#">西安一日游</a>	
+							<span class="content_right_list_right">￥1000.00</span>
+						</li>
+						<li>
+							<a class="passto" href="#">西安一日游</a>	
+							<span class="content_right_list_right">￥1000.00</span>
+						</li>
+						<li>
+							<a class="passto" href="#">西安一日游</a>	
+							<span class="content_right_list_right">￥1000.00</span>
+						</li>
+						<li>
+							<a class="passto" href="#">西安一日游</a>	
+							<span class="content_right_list_right">￥1000.00</span>
+						</li>
+						<li>
+							<a class="passto" href="#">西安一日游</a>	
+							<span class="content_right_list_right">￥1000.00</span>
+						</li>
+						<li>
+							<a class="passto" href="#">西安一日游</a>	
+							<span class="content_right_list_right">￥1000.00</span>
+						</li>
+						<li>
+							<a class="passto" href="#">西安一日游</a>	
+							<span class="content_right_list_right">￥1000.00</span>
+						</li>
+						<li>
+							<a class="passto" href="#">西安一日游</a>	
+							<span class="content_right_list_right">￥1000.00</span>
+						</li>
+						<li>
+							<a class="passto" href="#">西安一日游</a>	
+							<span class="content_right_list_right">￥1000.00</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		
+		</div>
+	</body>
+	<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+	<script type="text/javascript">
+		var navLi = $('#out').children('ul').children('li').children('a');
+					
+		
+		navLi.on('click', function() {
+			nowLi = this;
+			console.log(this);
+			var indexValue = $(nowLi).attr('indexValue');
+			window.location.href="http://127.0.0.1/project/html/goods.html?prjWhere=" + indexValue;
+			console.log(indexValue);
+		
+		})
+		
+		function getvl(name) {
+      		var reg = new RegExp("(^|\\?|&)" + name + "=([^&]*)(\\s|&|$)", "i");
+      		if (reg.test(location.href)) 
+      		return decodeURI(RegExp.$2.replace(/\+/g," "));
+      		return "";
+    		}
+		var where = getvl("prjWhere");
+		console.log(where);
+		//根据获取多少条数据进行布局
+		var	li = $('#goods_content').children('ul').children('li');
+		li.hide();
+		//一进入界面，根据上一个界面确定传输的值进行网络请求对这个界面布局，以后根据点击布局
+		$.ajax({
+			type: "GET",
+			url: "../php/code/goods.php?name="+where,
+			success: function(str) {
+//				console.log(str);
+				var obj = JSON.parse(str);
+				console.log(obj);
+//				change(obj);
+				//调用页脚函数
+//				var nowIndex = 1;
+				createPageFooter (obj);
+
+			}
+		});
+		
+		//页脚点击跳转上一页下一页
+		function createPageFooter (obj) {
+//			change(obj);
+			$('.pageFoot').children('ul').remove();
+			//定义页面下角标
+				var nowIndex = 1;
+				console.log(nowIndex);
+				var bigIndex =null;
+				var smallIndex=null;
+				//定义一个全局变量orrequest,当为true的时候，说明没有数据，进行数据调用布局，如果为false，说明为重复点击当前页面，不进行数组数据请求，不重复布局
+				var orrequest =true;
+				//调用分页函数，分页函数内调用布局函数对页面进行布局，因为需要传输和页面等量的数据库
+				footChange(nowIndex,obj);
+			//顶一个num为数据请求的obj长度除以页面最大布局12个，得到有几个页面
+			var num = Math.ceil(obj.length/12);
+			console.log(num);
+			var ul = $('<ul/>');
+
+			
+			for (var i = 0; i < num; i++) {
+				var li = $('<li/>');
+				li.attr('class','pageFoot_li')
+				li.text(i+1);
+				ul.append(li);
+				li[0].index = i;
+				li[0].style.cursor="pointer";
+				//给创建的每个li添加一个背点击改变的样式属性
+				li[0].newStyle =i+1;
+
+				//点击数字跳转
+				li.on('click',function  () {
+					console.log(this.index+1);
+					//定义一个变量orrequest，当为true的时候，进行页脚数据调用，如果为false的时候，说明还是点击的是当前调用过的，就不再调用
+					if (nowIndex==this.index+1) {
+						orrequest=false;
+					}else{
+						orrequest=true;
+					}
+						nowIndex	 =this.index+1;
+					console.log($('.pageFoot_li').length);
+					this.style.background = "#fff";
+						//更改当前被点击的li的样式
+					for (var k = 0; k <$('.pageFoot_li').length; k++) {
+						$('.pageFoot_li')[k].style.color ="#c00000";
+						$('.pageFoot_li')[k].style.border ="1px"+" solid"+" #ccc";
+						$('.pageFoot_li')[k].style.cursor ="pointer";
+						if ($('.pageFoot_li')[k].newStyle==nowIndex) {
+								$('.pageFoot_li')[k].style.border ="none";
+								$('.pageFoot_li')[k].style.color = "#000";
+								$('.pageFoot_li')[k].style.cursor ="auto";
+						}
+					}
+						//调用修改页脚被点击样式函数
+						console.log(orrequest)
+						if (orrequest==true) {
+							console.log("现在是true")
+
+							footChange(nowIndex,obj);
+						}
+							footStyle(nowIndex);
+						
+						return false;
+				})
+			}
+			
+			//将创建的ul放到下一页之前
+			ul.insertBefore('.pageFoot_next');
+			//把ul插入掉下一页之后，调用修改页脚样式函数
+				footStyle(nowIndex);
+			
+				//点击上一页跳转
+				//取消页脚点击选中文字事件
+				$('.pageFoot')[0].onselectstart=function(){return false;}
+				$('.pageFoot_prev').on('click',function  () {
+					this.style.background = "#fff";
+						console.log(11);
+//						console.log(nowIndex);
+						nowIndex-=1;
+						
+						//如果现在页号码在1的时候就不调用数据请求
+						
+						if (nowIndex>=1) {
+							//当点击上一页的时候，不是第一页的话，进行数据请求，进行页面布局
+							footStyle(nowIndex);
+							console.log(nowIndex);
+							footChange(nowIndex,obj);
+						}
+						if (nowIndex<1) {
+							nowIndex=1;
+						}
+					//点击上一页或者下一页的时候，当前li的newstyle属性值和角标变量nowIndex相等时候，改变当前li的样式
+
+						return false;
+				})
+				//点击下一页跳转
+				$('.pageFoot_next').on('click',function  () {
+					this.style.background = "#fff";
+						console.log(11);
+//						console.log(nowIndex);
+						nowIndex+=1;
+						//当点击"下一页"的时候如果现在页号码和li的长度一样的时候的时候就不调用数据请求
+						//num就是li的长度
+						
+						if (nowIndex<=$('.pageFoot_li').length) {
+							//当点击“下一页”的时候，不是处在最后一页就调用数组数据请求，进行布局
+							footStyle(nowIndex);
+							console.log(nowIndex);
+							footChange(nowIndex,obj);
+						}
+						
+						if (nowIndex>$('.pageFoot_li').length) {
+							nowIndex=$('.pageFoot_li').length;
+						}
+						console.log(num);
+						console.log($('.pageFoot_li').length)
+						console.log(nowIndex);
+//						footStyle(nowIndex);
+//							
+//							footChange(nowIndex,obj);
+						return false;
+				})
+		}
+		
+		//封装改变页脚点击后效果样式函数
+		function  footStyle(nowIndex) {
+			//点击上一页或者下一页的时候，当前li的newstyle属性值和角标变量nowIndex相等时候，改变当前li的样式
+			for (var i = 0; i <$('.pageFoot_li').length; i++) {
+						$('.pageFoot_li')[i].style.color ="#c00000";
+						$('.pageFoot_li')[i].style.border ="1px"+" solid"+" #ccc";
+					//修改省略号,把所有的li内容都改成“...”，后面再更改
+						$('.pageFoot_li')[i].innerHTML="...";
+						$('.pageFoot_li')[i].style.display="none";
+						//定义一个属性移入哪个页脚数字中
+						$('.pageFoot_li')[i].hover=i;
+						$('.pageFoot_li')[i].onmouseover = function  () {
+							//当移入的是不是当前页面页脚才有hover的效果
+								if (this.hover!=nowIndex-1) {
+									this.style.color = "#fff";
+									this.style.background="#c00000";
+								}
+							}
+							$('.pageFoot_li')[i].onmouseleave=function  () {
+								if (this.hover!=nowIndex-1) {
+									this.style.color = "#c00000";
+									this.style.background="white";
+								}
+							}
+						
+
+//					$('.pageFoot_li')[$('.pageFoot_li').length-1].innerHTML=$('.pageFoot_li').length;
+						if ($('.pageFoot_li')[i].newStyle==nowIndex) {
+								$('.pageFoot_li')[i].style.border ="none";
+								$('.pageFoot_li')[i].style.color = "#000";
+						}
+
+			}
+			
+				if (nowIndex	 == $('.pageFoot_li').length) {
+
+						$('.pageFoot_next').css({'color':'#000','border':'none'});
+						$('.pageFoot_next').on('mouseover',function  () {
+							this.style.background ="#fff";
+							this.style.color = "#000";
+						})
+						$('.pageFoot_next').on('mouseleave',function  () {
+							this.style.background ="#fff";
+							this.style.color = "#000";
+						})
+
+					}else{
+						$('.pageFoot_next').css({'color':'#c00000','border':"1px"+" solid"+" #ccc"});
+						$('.pageFoot_next').on('mouseover',function  () {
+							this.style.background ="#c00000";
+							this.style.color = "#fff";
+						})
+						$('.pageFoot_next').on('mouseleave',function  () {
+							this.style.background ="#fff";
+							this.style.color = "#c00000";
+						})
+
+					}
+				if (nowIndex	==1) {
+					$('.pageFoot_prev').css({'color':'#000','border':'none'});
+						$('.pageFoot_prev').on('mouseover',function  () {
+							this.style.background ="#fff";
+							this.style.color = "#000";
+						})
+						$('.pageFoot_prev').on('mouseleave',function  () {
+							this.style.background ="#fff";
+							this.style.color = "#000";
+						})
+
+				}else{
+					$('.pageFoot_prev').css({'color':'#c00000','border':"1px"+" solid"+" #ccc"});
+					$('.pageFoot_prev').on('mouseover',function  () {
+							this.style.background ="#c00000";
+							this.style.color = "#fff";
+						})
+						$('.pageFoot_prev').on('mouseleave',function  () {
+							this.style.background ="#fff";
+							this.style.color = "#c00000";
+						})
+
+				}
+					
+					//把省略号变成相应的数字
+					$('.pageFoot_li')[0].innerHTML=1;
+					$('.pageFoot_li')[0].style.display="inline-block";
+					$('.pageFoot_li')[$('.pageFoot_li').length-1].innerHTML=$('.pageFoot_li').length;
+					$('.pageFoot_li')[$('.pageFoot_li').length-1].style.display="inline-block";
+					console.log(nowIndex);
+					if (nowIndex>=2) {
+						console.log("进来了")
+						if (nowIndex>=3) {
+							$('.pageFoot_li')[nowIndex-3].innerHTML=nowIndex-2;
+							$('.pageFoot_li')[nowIndex-3].style.display="inline-block";
+						}
+						if (nowIndex>4) {
+							$('.pageFoot_li')[nowIndex-4].style.display="inline-block";
+							$('.pageFoot_li')[nowIndex-4].style.border="none";
+							$('.pageFoot_li')[nowIndex-4].style.color ="#000";
+								//让省略号的移入移出事件没有变化还是以前一样
+								$('.pageFoot_li')[nowIndex-4].onmouseover=function  () {
+									$('.pageFoot_li')[nowIndex-4].style.color ="#000";
+									
+								}
+								$('.pageFoot_li')[nowIndex-4].onmouseleave=function  () {
+									$('.pageFoot_li')[nowIndex-4].style.color ="#000";
+								}
+
+						}
+						$('.pageFoot_li')[nowIndex-2].innerHTML=nowIndex-1;
+						$('.pageFoot_li')[nowIndex-2].style.display="inline-block";
+						console.log(nowIndex-1);
+						
+							$('.pageFoot_li')[nowIndex-1].innerHTML=nowIndex;
+							$('.pageFoot_li')[nowIndex-1].style.display="inline-block";
+						
+						
+					}
+						
+						console.log(nowIndex);
+						if (nowIndex<=$('.pageFoot_li').length-2) {
+							$('.pageFoot_li')[nowIndex].innerHTML=nowIndex+1;
+							$('.pageFoot_li')[nowIndex].style.display="inline-block";
+							$('.pageFoot_li')[nowIndex+1].innerHTML=nowIndex+2;
+							$('.pageFoot_li')[nowIndex+1].style.display="inline-block";
+							console.log(nowIndex+2);
+							if (nowIndex<$('.pageFoot_li').length-3) {
+								$('.pageFoot_li')[nowIndex+2].style.display="inline-block";
+								$('.pageFoot_li')[nowIndex+2].style.border="none";
+								$('.pageFoot_li')[nowIndex+2].style.color ="#000";
+								//让省略号的移入移出事件没有变化还是以前一样
+								$('.pageFoot_li')[nowIndex+2].onmouseover=function  () {
+									$('.pageFoot_li')[nowIndex+2].style.color ="#000";
+									
+								}
+								$('.pageFoot_li')[nowIndex+2].onmouseleave=function  () {
+									$('.pageFoot_li')[nowIndex+2].style.color ="#000";
+									
+								}
+							}
+						}
+			}
+		
+		
+		//更改角标数字函数
+		function  footChange(nowIndex,obj) {
+			//当前点击的*12即为数据库取出的数组所在位置区间的大值
+			 	bigIndex = nowIndex*12;
+			 	//用大值-12就是减掉界面布局数，得到数组位置区间的小值
+			 	smallIndex = nowIndex*12-12;
+			 	//如果大值超过了数据库初始数组的长度，大值就是数据库数组长度
+				if (bigIndex>obj.length) {
+					bigIndex=obj.length;
+				}
+				//定义一个空数组
+				var arr =[];
+				for (var j =smallIndex; j <bigIndex; j++) {
+					//把数据库数组内容，通过大值和小值之间的内容放到新数组arr中，arr即为布局所需要的新数组
+						arr.push(obj[j]);
+				}
+				//调用页面布局函数，通过截取后的小数组进行布局
+				change(arr);
+		}
+		
+		
+		//		window.location.reload("http://127.0.0.1/project/html/goods.html?prj_from=kor");
+		//修改页面整体布局样式函数
+		function change(obj) {
+			//暂时更改下obj的长度，如果大于12，就还让等于12
+//			var changdu = obj.length;
+//			console.log(obj.length);
+//			if (changdu>12) {
+//				changdu=12;
+//			}
+			//把需要点击跳转的标签变成小手的图标
+			$('.skip').css('cursor','pointer');
+				li.hide();
+			for(var i = 0; i < obj.length; i++) {
+				$(li[i]).show();
+				$(li[i]).children('img').attr('src', '../php/img/' + obj[i].prj_img);
+				$(li[i]).children('.goods_content_right').children('h3').text(obj[i].prj_title);
+				$(li[i]).children('.goods_content_right').children('.goods_content_right_p1').children('span').text(obj[i].prj_price);
+				$(li[i]).children('.goods_content_right').children('.goods_content_right_p2').children('span').text(obj[i].prj_date);
+				//定义点击的的li的i和传输过来的数组i是同一个
+				console.log(obj.length);
+				li[i].index = i;
+				console.log(li[i].index);
+				//点击跳转相应的界面
+				//因为当前点击的标签的父级不都是li所以分开写，需要找到当前li的角标对应数据库取出来的obj数组位置
+				$(li[i]).children('.goods_content_right').children('.skip').on('click',function  () {
+					window.location.assign("http://127.0.0.1/project/html/goodsBuy.html?prjId=" + obj[this.parentNode.parentNode.index].prj_id + "&prjFrom=" + obj[this.parentNode.parentNode.index].prj_from);
+				})
+				$(li[i]).children('.skip').on('click', function() {
+					window.location.assign("http://127.0.0.1/project/html/goodsBuy.html?prjId=" + obj[this.parentNode.index].prj_id + "&prjFrom=" + obj[this.parentNode.index].prj_from);
+//					var date = new Date();
+//					date.setTime(date.getTime() + 600 * 1000);
+//
+//					document.cookie = "prjId=" + obj[this.parentNode.index].prj_id + ";expires=" + date.toGMTString();
+//					document.cookie = "prjFrom=" + obj[this.parentNode.index].prj_from + ";expires=" + date.toGMTString();
+					/*
+										//根据选择传入写入cookie
+										if (this.parentNode.index == 0) {
+											document.cookie = "prev="+'';
+										}else if (this.parentNode.index != 0) {
+											document.cookie = "prev="+ obj[this.parentNode.index-1].prj_title+";expires="+date.toGMTString();
+											document.cookie = "prevId="+ obj[this.parentNode.index-1].prj_id+";expires="+date.toGMTString();
+											document.cookie = "prevFrom="+obj[this.parentNode.index].prj_from+";expires="+date.toGMTString();
+											
+										} 
+										if (this.parentNode.index+1 <obj.length) {
+											document.cookie = "next="+ obj[this.parentNode.index+1].prj_title+";expires="+date.toGMTString();
+										}else if (this.parentNode.index+1 == obj.length) {
+											document.cookie = "next="+'';
+										}
+					*/
+
+				})
+			}
+			console.log(li);
+		}
+		
+		//右侧排行榜网络请求进行布局
+		function rightSide () {
+			$.ajax({
+				type:"GET",
+				url:"../php/code/rankDEMO.php",
+				async:true,
+				success:function  (str) {
+					var obj = JSON.parse(str);
+					console.log(1111111111);
+					console.log(obj);
+					console.log($('.passto'));
+					pass (obj);
+				}
+			});
+		}
+		rightSide ();
+		
+		//网络请求传输数据，修改右侧边栏布局
+		function pass (obj) {
+			var passA = $('.passto');
+			$(passA[0]).text(obj[0].prj_title);
+			$(passA[0]).next('span').text(obj[0].prj_price);
+			//界面跳转的第一种写法，在A链接加上target=_blank属性，改变href地址
+			$(passA[0]).attr('href',"http://127.0.0.1/project/html/goodsBuy.html?prjId=" + obj[0].prj_id + "&prjFrom=" + obj[0].prj_from);
+			for (var i = 1; i < obj.length; i++) {
+				$(passA[i]).text(obj[i].prj_title.substr(0,12)+'...');
+				$(passA[i]).next('span').text(obj[i].prj_price);
+				 passA[i].index = i;
+				 //界面跳转新窗口的第二种写法
+				$(passA[i]).on('click',function  () {
+					window.open("http://127.0.0.1/project/html/goodsBuy.html?prjId=" + obj[this.index].prj_id + "&prjFrom=" + obj[this.index].prj_from);
+					
+				})
+			}
+			
+		}
+		console.log($('.pageFoot_li')[1])
+		
+	</script>
+
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+</body>
+<script type="text/javascript">
+	var body1 =document.querySelector('body');
+	function requestAjax (obj,callBack) {
+   			var request = new XMLHttpRequest();
+   			request.open('GET',obj.url,true);
+			request.send();
+   			request.onreadystatechange = function  () {
+   				if (request.readyState == 4 && request.status ==200) {
+   					var str = request.responseText;
+   					var obj1 = JSON.parse(str);
+   					if (callBack) {
+   						callBack(obj1);
+   					}
+   				}
+   			}
+   		}
+   		requestAjax({
+				url:'detail.php',
+			},function  (obj) {
+				console.log(obj);
+				console.log(obj[0].prj_detail);
+				createDetail(obj);
+				
+			})
+   		function createDetail(obj){
+   			body1.innerHTML = obj[0].prj_detail;
+   		}
+</script>
+</html>

@@ -1,0 +1,112 @@
+#content_right{
+	width: 246px;
+	font-size: 14px;
+	border: 1px solid red;
+	float: right;
+}
+#content_right a{text-decoration: none; color: #000000;}
+#content_right .content_right_hot p{
+	background: #b51419;
+	color: #fff;
+	font-size: 14px;
+	height: 30px;
+	line-height: 30px;
+	width: 100%;
+	overflow: hidden;
+}
+#down #content_right .content_right_hot p a{
+	display: inline-block;
+	height: 30px;
+	margin-left: 20px;
+	color: #fff;
+	float: right;
+}
+#content_right .content_right_list ul li:hover{
+	background: red;
+	
+}
+#content_right .content_right_list ul li:hover a{
+	color: #fff;
+}
+#content_right .content_right_list ul li:hover span{
+	color: #fff;
+}
+/*#content_right thead tr:nth-child(1){
+	text-align: left;
+	color: #fff;
+	width: 246px;
+	height: 30px;
+	background: #b51419;
+	
+	font-size: 14px;
+	
+}*/
+#content_right .content_right_hot a:nth-child(2){
+	display: inline-block;
+	padding: 10px;
+	font-size: 14px;
+	height: 110px;
+	line-height: 20px;
+}
+
+#content_right .content_right_hot span{
+	font-size: 18px;
+	color:#C30;
+	width:90% ;
+	margin: 0 0px 0  10px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #C1C1C1;
+	display: inline-block;
+	
+
+}
+/*#content_right .content_right_hot p:nth-of-type(2):span{
+	border-bottom: 1px solid #C1C1C1;
+	display: inline-block;
+}*/
+.content_right_list{
+	margin-top: 8px;
+	padding: 0 5px 5px 5px;
+}
+.content_right_list .content_right_list_header{
+	background:#b51419;
+	height: 25px;
+	line-height: 25px;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	
+}
+.content_right_list .content_right_list_header p{
+	display: inline-block;
+	width: 60%;
+	text-align: center;
+	
+}
+.content_right_list .content_right_list_header span{
+	margin-left: 15%;
+}
+.content_right_list ul{
+	padding: 10px 2px 0 2px;
+}
+.content_right_list ul li {
+	line-height: 28px;
+	height: 28px;
+	overflow: hidden;
+	padding:0 10px 0 5px;
+}
+.content_right_list ul li span{
+	float: right;
+	color:#C30;
+	font-size: 12px;
+	font-weight: bold;
+}
+#content_right .content_right_list ul li a{
+	text-decoration: underline;
+	font-size: 12px;
+	width: 150px;
+	display: inline-block;
+	overflow: hidden;
+	height: 28px;
+	line-height: 28px;
+}
